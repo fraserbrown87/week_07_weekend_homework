@@ -10,6 +10,4 @@ public class Guitar extends Instrument {
         this.numberStrings = numberStrings;
     }
 
-
-
 }

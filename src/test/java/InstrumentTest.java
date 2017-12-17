@@ -42,10 +42,13 @@ public class InstrumentTest {
 
     @Test
     public void getBuy_price() {
+        assertEquals(250.00, guitar.getBuy_price(), 00.1);
     }
 
     @Test
     public void setBuy_price() {
+        guitar.setBuy_price(300);
+        assertEquals(300, guitar.getBuy_price(), 0.01);
     }
 
     @Test

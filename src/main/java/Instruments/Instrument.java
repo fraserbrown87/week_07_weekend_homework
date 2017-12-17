@@ -31,19 +31,12 @@ public abstract class Instrument {
         this.type = type;
     }
 
+
     public double getBuy_price() {
         return buy_price;
     }
 
-    public void setBuy_price(double buy_price) {
+    public void setBuy_price(int buy_price) {
         this.buy_price = buy_price;
-    }
-
-    public double getSell_price() {
-        return sell_price;
-    }
-
-    public void setSell_price(double sell_price) {
-        this.sell_price = sell_price;
     }
 }
