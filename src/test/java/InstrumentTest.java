@@ -31,10 +31,13 @@ public class InstrumentTest {
 
     @Test
     public void getType() {
+        assertEquals(Type.KEYBOARD, piano.getType());
     }
 
     @Test
     public void setType() {
+        piano.setType(Type.BRASS);
+        assertEquals(Type.BRASS, piano.getType());
     }
 
     @Test
