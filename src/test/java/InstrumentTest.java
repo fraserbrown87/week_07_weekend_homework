@@ -61,4 +61,14 @@ public class InstrumentTest {
         piano.setSell_price(4000.00);
         assertEquals(4000.00, piano.getSell_price(), 0.01);
     }
+
+    @Test
+    public void getNumberStrings(){
+        assertEquals(6, guitar.getNumberStrings());
+    }
+
+    @Test
+    public void getNumberKeys(){
+        assertEquals(88, piano.getNumberKeys());
+    }
 }
