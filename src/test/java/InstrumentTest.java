@@ -71,4 +71,9 @@ public class InstrumentTest {
     public void getNumberKeys(){
         assertEquals(88, piano.getNumberKeys());
     }
+
+    @Test
+    public void instrumentCanPlay(){
+        assertEquals(guitar.play(), "Twaaaaang");
+    }
 }

@@ -12,4 +12,5 @@ public class Piano extends Instrument {
     public int getNumberKeys() {
         return numberKeys;
     }
+
 }

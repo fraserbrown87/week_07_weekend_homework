@@ -1,7 +1,7 @@
-//package Behaviours;
-//
-//public interface IPlay {
-//
-//    String play();
-//
-//}
+package Behaviours;
+
+public interface IPlay {
+
+    String play();
+
+}
