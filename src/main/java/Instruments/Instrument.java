@@ -1,3 +1,5 @@
+package Instruments;
+
 public abstract class Instrument {
 
     private String colour;
@@ -5,7 +7,7 @@ public abstract class Instrument {
     private double buy_price;
     private double sell_price;
 
-    public Instrument(String colour, Type type double buy_price, double sell_price){
+    public Instrument(String colour, Type type, double buy_price, double sell_price){
         this.colour = colour;
         this.type = type;
         this.buy_price = buy_price;
