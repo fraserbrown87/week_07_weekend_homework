@@ -47,4 +47,9 @@ public abstract class Instrument {
     public void setSell_price(double sell_price) {
         this.sell_price = sell_price;
     }
+
+    public double getMarkUp() {
+        double markUp = (this.sell_price - this.buy_price);
+        return markUp;
+    }
 }

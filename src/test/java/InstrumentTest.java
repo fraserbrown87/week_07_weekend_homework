@@ -76,4 +76,9 @@ public class InstrumentTest {
     public void instrumentCanPlay(){
         assertEquals(guitar.play(), "Twaaaaang");
     }
+
+    @Test
+    public void canGetMarkUp(){
+        assertEquals(2000.00, piano.getMarkUp(), 0.01);
+    }
 }
