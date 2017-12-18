@@ -1,6 +1,9 @@
 package Instruments;
 
-public abstract class Instrument {
+import Behaviours.IPlay;
+import Behaviours.ISell;
+
+public abstract class Instrument implements IPlay, ISell{
 
     private String colour;
     private Type type;

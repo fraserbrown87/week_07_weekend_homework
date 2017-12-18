@@ -1,6 +1,8 @@
 package Instruments;
 
-public class Piano extends Instrument {
+import Behaviours.IPlay;
+
+public class Piano extends Instrument implements IPlay {
 
     private int numberKeys;
 
@@ -13,4 +15,13 @@ public class Piano extends Instrument {
         return numberKeys;
     }
 
+    @Override
+    public String play() {
+        return null;
+    }
+
+    @Override
+    public double MarkUp() {
+        return 0;
+    }
 }

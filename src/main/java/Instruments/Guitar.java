@@ -1,7 +1,9 @@
 package Instruments;
 
 
-public class Guitar extends Instrument {
+import Behaviours.IPlay;
+
+public class Guitar extends Instrument implements IPlay {
 
     private int numberStrings;
 
@@ -18,4 +20,8 @@ public class Guitar extends Instrument {
         return "Twaaaaang";
     }
 
+    @Override
+    public double MarkUp() {
+        return 0;
+    }
 }

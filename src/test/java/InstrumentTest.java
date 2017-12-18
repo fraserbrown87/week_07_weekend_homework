@@ -78,7 +78,7 @@ public class InstrumentTest {
     }
 
     @Test
-    public void canGetMarkUp(){
+    public void getMarkUp(){
         assertEquals(2000.00, piano.getMarkUp(), 0.01);
     }
 }
